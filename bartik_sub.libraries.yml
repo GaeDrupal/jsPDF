@@ -1,0 +1,19 @@
+global-styling:
+  Version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+      css/udf.css: {}
+  js:
+      js/script.js: {}
+      js/browserOS.js: {}
+      js/udf.js: {}
+
+jsPDF:
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js: { type: external, minified: true }
+    https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js: { type: external, minified: true }
+    https://unpkg.com/jspdf-autotable@3.5.15/dist/jspdf.plugin.autotable.js: { type: external }
+    https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.2.2/html2canvas.min.js: { type: external, minified: true }
+    https://unpkg.com/jspdf-autotable@3.5.23/dist/jspdf.plugin.autotable.js: { type: external }
+    https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js: { type: external, minified: true }
